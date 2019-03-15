@@ -1,0 +1,15 @@
+---
+layout: default
+title: Home
+---
+<h1>welcome to {{ site.title }}</h1>
+<ul id="post-list">
+    {% assign posts = site.posts | sort: 'title' %}
+    {% for post in posts %}
+    {% if post.type == "Sovereign state" %}
+    <li>
+        <h2><a href="{{ post.url }}"><span class="home-image"><img src="/assets/img/{{ post.image }}"></span>{{ post.title }}</a></h2>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
