@@ -1,10 +1,10 @@
 ---
 layout: post
 author: Gurur
-title: Brussels
-type: City
+title: Aartselaar
+type: Municipality
 parent: Belgium
-image: brussels-city.png
+image: aartselaar.png
 ---
 {: .caption }
 {{ page.type }} ([{{ page.parent }}](/2019/03/14/belgium.html))
@@ -16,16 +16,16 @@ image: brussels-city.png
 
 *Flag proportions*: 2:3
 
-Two bands of dark green with a yellow outline of St Michael trampling the devil.
+Seven alternating vertical bands of yellow (4) and blue (3).
 
 {: .section-title }
 ## Key facts about {{ page.title }}
 
 {: .facts }
-**Official name:** City of Brussels
+**Official name:** Aartselaar
 
 {: .facts }
-**Total area:** 32.61 km<sup>2</sup>
+**Total area:** 10.93 km<sup>2</sup>
 
 {: .facts }
-**Population:** 179,277
+**Population:** 14,304

@@ -1,10 +1,10 @@
 ---
 layout: post
 author: Gurur
-title: Brussels
-type: City
+title: Baarle-Hertog
+type: Municipality
 parent: Belgium
-image: brussels-city.png
+image: baarle-hertog.png
 ---
 {: .caption }
 {{ page.type }} ([{{ page.parent }}](/2019/03/14/belgium.html))
@@ -16,16 +16,16 @@ image: brussels-city.png
 
 *Flag proportions*: 2:3
 
-Two bands of dark green with a yellow outline of St Michael trampling the devil.
+Blue field with gold St Remigius at the centre.
 
 {: .section-title }
 ## Key facts about {{ page.title }}
 
 {: .facts }
-**Official name:** City of Brussels
+**Official name:** Baarle Hertog
 
 {: .facts }
-**Total area:** 32.61 km<sup>2</sup>
+**Total area:** 7.48 km<sup>2</sup>
 
 {: .facts }
-**Population:** 179,277
+**Population:** 2,705
