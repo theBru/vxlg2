@@ -11,24 +11,6 @@ image: minsk-region.png
 
 ![Flag of {{ page.title }}](/assets/img/{{ page.image }})
 
-{: .section-title }
-## Flag components
-
 *Flag proportions*: 1:2
 
 A red field with the region's coat of arms at the centre. The coat of arms is a gold shield, with blue wavy horizontal lines and the coat of arms of [Minsk city](/2019/03/14/minsk.html), surrounded by gold laurel branches and a blue ribbon.
-
-{: .section-title }
-## Key facts about {{ page.title }}
-
-{: .facts }
-**Official name:** Minsk Region
-
-{: .facts }
-**Total area:** 39,912 km<sup>2</sup>
-
-{: .facts }
-**Population:** 1,411,500
-
-{: .facts }
-**HDI:** 0.824

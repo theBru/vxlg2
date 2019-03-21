@@ -11,21 +11,6 @@ image: aartselaar.png
 
 ![Flag of {{ page.title }}](/assets/img/{{ page.image }})
 
-{: .section-title }
-## Flag components
-
 *Flag proportions*: 2:3
 
 Seven alternating vertical bands of yellow (4) and blue (3).
-
-{: .section-title }
-## Key facts about {{ page.title }}
-
-{: .facts }
-**Official name:** Aartselaar
-
-{: .facts }
-**Total area:** 10.93 km<sup>2</sup>
-
-{: .facts }
-**Population:** 14,304

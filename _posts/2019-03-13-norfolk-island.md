@@ -11,24 +11,6 @@ image: norfolk-island.png
 
 ![Flag of {{ page.title }}](/assets/img/{{ page.image }})
 
-{: .section-title }
-## Flag components
-
 *Flag proportions*: 1:2
 
 Triband with three green vertical bands sandwiching a white band with a green pine tree on the white band.
-
-{: .section-title }
-## Key facts about {{ page.title }}
-
-{: .facts }
-**Official name:** Territory of Norfolk Island
-
-{: .facts }
-**Capital:** Kingston
-
-{: .facts }
-**Total area:** 34.6 km<sup>2</sup>
-
-{: .facts }
-**Population:** 1748
