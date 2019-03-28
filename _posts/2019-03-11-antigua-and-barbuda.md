@@ -8,7 +8,7 @@ image: antigua-and-barbuda.png
 {: .caption }
 {{ page.type }}
 
-![Flag of {{ page.title }}](/assets/img/a{{ page.image }})
+![Flag of {{ page.title }}](/assets/img/{{ page.image }})
 
 *Flag proportions*: 2:3
 
