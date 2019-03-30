@@ -1,18 +1,18 @@
 ---
 layout: post
 author: Gurur
-title: Netherlands
+title: Bosnia and Herzegovina
 type: Sovereign state
-image: netherlands.png
+image: bosnia-and-herzegovina.png
 ---
 {: .caption }
 {{ page.type }}
 
 ![Flag of {{ page.title }}](/assets/img/{{ page.image }})
 
-*Flag proportions*: 2:3
+*Flag proportions*: 1:2
 
-Tricolour with horizontal bands of red, white, and blue.
+Blue field with a gold right-angled triangle at the centre, with nine white five-pointed-stars along the hypothenuse.
 
 {: .section-title }
 ## Children
