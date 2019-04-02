@@ -24,7 +24,7 @@ Allegedly designed by General Manuel Belgrano, the blue is said to represent eit
     {% for post in posts %}
     {% if post.parent == page.title %}
     <li>
-        <h2><a href="{{ post.url }}">{{ post.title }}<span class="home-image"><img src="/assets/img/{{ post.image }}"></span></a></h2>
+        <h2><a href="{{ post.url }}">{{ post.title }}<br><span class="home-image"><img src="/assets/img/{{ post.image }}"></span></a></h2>
     </li>
     {% endif %}
     {% endfor %}
