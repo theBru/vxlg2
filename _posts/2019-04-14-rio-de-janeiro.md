@@ -1,10 +1,10 @@
 ---
 layout: post
 author: Gurur
-title: Ceará
+title: Rio de Janeiro
 type: State
 parent: Brazil
-image: ceara.png
+image: rio-de-janeiro.png
 ---
 {: .caption }
 {{ page.type }} ([{{ page.parent }}](/2019/04/02/brazil.html))
@@ -13,7 +13,7 @@ image: ceara.png
 
 *Flag proportions*: 7:10
 
-Green field with a yellow rhombus featuring a white circle charged with the state's coat-of-arms.
+Quartered white and sky blue, with the state coat-of-arms at the centre.
 
 {: .section-title }
 ## Children

@@ -1,10 +1,10 @@
 ---
 layout: post
 author: Gurur
-title: Ceará
+title: Rio Grande do Sul
 type: State
 parent: Brazil
-image: ceara.png
+image: rio-grande-do-sul.png
 ---
 {: .caption }
 {{ page.type }} ([{{ page.parent }}](/2019/04/02/brazil.html))
@@ -13,7 +13,7 @@ image: ceara.png
 
 *Flag proportions*: 7:10
 
-Green field with a yellow rhombus featuring a white circle charged with the state's coat-of-arms.
+Triband with green and yellow triangles and a red quadrilateral ascending from lower hoist to upper fly, with the state's coat-of-arms at the centre.
 
 {: .section-title }
 ## Children

@@ -1,19 +1,19 @@
 ---
 layout: post
 author: Gurur
-title: Ceará
+title: Santa Catarina
 type: State
 parent: Brazil
-image: ceara.png
+image: santa-catarina.png
 ---
 {: .caption }
 {{ page.type }} ([{{ page.parent }}](/2019/04/02/brazil.html))
 
 ![Flag of {{ page.title }}](/assets/img/{{ page.image }})
 
-*Flag proportions*: 7:10
+*Flag proportions*: 8:11
 
-Green field with a yellow rhombus featuring a white circle charged with the state's coat-of-arms.
+Red field with a white bend and a green diamond charged with the state's coat-of-arms.
 
 {: .section-title }
 ## Children

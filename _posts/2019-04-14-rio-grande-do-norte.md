@@ -1,19 +1,19 @@
 ---
 layout: post
 author: Gurur
-title: Ceará
+title: Rio Grande do Norte
 type: State
 parent: Brazil
-image: ceara.png
+image: rio-grande-do-norte.png
 ---
 {: .caption }
 {{ page.type }} ([{{ page.parent }}](/2019/04/02/brazil.html))
 
 ![Flag of {{ page.title }}](/assets/img/{{ page.image }})
 
-*Flag proportions*: 7:10
+*Flag proportions*: 2:3
 
-Green field with a yellow rhombus featuring a white circle charged with the state's coat-of-arms.
+Two horizontal bands of green and white, with the state's coat-of-arms at the centre.
 
 {: .section-title }
 ## Children

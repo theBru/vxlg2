@@ -1,10 +1,10 @@
 ---
 layout: post
 author: Gurur
-title: Ceará
+title: Minas Gerais
 type: State
 parent: Brazil
-image: ceara.png
+image: minas-gerais.png
 ---
 {: .caption }
 {{ page.type }} ([{{ page.parent }}](/2019/04/02/brazil.html))
@@ -13,7 +13,7 @@ image: ceara.png
 
 *Flag proportions*: 7:10
 
-Green field with a yellow rhombus featuring a white circle charged with the state's coat-of-arms.
+White field with a red triangle at the centre, with "Libertas", "Quæ sera", and "Tamen" written along each side in black letters.
 
 {: .section-title }
 ## Children

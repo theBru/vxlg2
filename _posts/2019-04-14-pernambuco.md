@@ -1,10 +1,10 @@
 ---
 layout: post
 author: Gurur
-title: Ceará
+title: Pernambuco
 type: State
 parent: Brazil
-image: ceara.png
+image: pernambuco.png
 ---
 {: .caption }
 {{ page.type }} ([{{ page.parent }}](/2019/04/02/brazil.html))
@@ -13,7 +13,7 @@ image: ceara.png
 
 *Flag proportions*: 7:10
 
-Green field with a yellow rhombus featuring a white circle charged with the state's coat-of-arms.
+Dark blue field with a three arcs of red, yellow, and green with a yellow five-pointed star above and a yellow sun below, with a white stripe at the bottom charged with a red cross.
 
 {: .section-title }
 ## Children

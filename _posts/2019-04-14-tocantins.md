@@ -1,10 +1,10 @@
 ---
 layout: post
 author: Gurur
-title: Ceará
+title: Tocantins
 type: State
 parent: Brazil
-image: ceara.png
+image: tocantins.png
 ---
 {: .caption }
 {{ page.type }} ([{{ page.parent }}](/2019/04/02/brazil.html))
@@ -13,7 +13,7 @@ image: ceara.png
 
 *Flag proportions*: 7:10
 
-Green field with a yellow rhombus featuring a white circle charged with the state's coat-of-arms.
+White bend sinister separating a dark blue and orange fields (creating two right-angled triangles), with an orange stylised sun at the centre.
 
 {: .section-title }
 ## Children

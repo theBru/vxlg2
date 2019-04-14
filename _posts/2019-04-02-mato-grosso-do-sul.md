@@ -1,10 +1,10 @@
 ---
 layout: post
 author: Gurur
-title: Ceará
+title: Mato Grosso do Sul
 type: State
 parent: Brazil
-image: ceara.png
+image: mato-grosso-do-sul.png
 ---
 {: .caption }
 {{ page.type }} ([{{ page.parent }}](/2019/04/02/brazil.html))
@@ -13,7 +13,7 @@ image: ceara.png
 
 *Flag proportions*: 7:10
 
-Green field with a yellow rhombus featuring a white circle charged with the state's coat-of-arms.
+Green triangle at canton and a blue quadrangle separated by a white diagonal stripe, with a five-pointed star on the lower fly on the blue field.
 
 {: .section-title }
 ## Children
