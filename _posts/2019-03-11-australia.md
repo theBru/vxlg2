@@ -4,6 +4,7 @@ author: Gurur
 title: Australia
 type: Sovereign state
 image: australia.png
+permalink: australia
 ---
 {: .caption }
 {{ page.type }}

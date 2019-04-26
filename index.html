@@ -6,7 +6,7 @@ title: Home
 <ul id="post-list">
     {% assign posts = site.posts | sort: 'title' %}
     {% for post in posts %}
-    {% if post.type == "Sovereign state" %}
+    {% if post.parent == "n/a" %}
     <li>
         <h2><a href="{{ post.url }}">{{ post.title }}<br><span class="home-image"><img src="/assets/img/{{ post.image }}"></span></a></h2>
     </li>

@@ -1,0 +1,50 @@
+- name: Bolivia
+  stub: bolivia
+  parent: n/a
+  children:
+    - name: Beni
+      stub: beni
+    - name: Chuquisaca
+      stub: chuquisaca
+    - name: Cochabamba
+      stub: cochabamba
+    - name: La Paz
+      stub: la-paz
+    - name: Oruro
+      stub: oruro
+    - name: Pando
+      stub: pando
+    - name: Potosí
+      stub: potosi
+    - name: Santa Cruz
+      stub: santa-cruz
+    - name: Tarija
+      stub: tarija
+  type: Sovereign state
+  image: bolivia.png
+  permalink: bolivia
+  colours:
+    - red
+    - yellow
+    - green
+  coatOfArms: no
+  proportions: "2:3"
+  design:
+    - triband
+    - tricolour
+    - horizontal bands
+  description: Tricolour with horizontal bands of red, yellow, and green.
+- name: Beni
+  stub: beni
+  parent: Bolivia
+  children: n/a
+  type: State
+  image: beni.png
+  permalink: beni
+  colours:
+    - green
+  coatOfArms: no
+  proportions: "2:3"
+  design:
+    - unicolour
+  description: Green field

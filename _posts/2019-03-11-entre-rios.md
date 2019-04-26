@@ -5,6 +5,7 @@ title: Entre Ríos
 type: Province
 parent: Argentina
 image: entre-rios.png
+permalink: entre-rios
 ---
 {: .caption }
 {{ page.type }} ([Argentina](/2019/03/11/argentina.html))

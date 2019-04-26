@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{% for item in site.data.flags %}
+{% if page.title == item.name %}
+<h1>{{ item.name }}</h1>
+<p class="caption">{{ item.type }}</p>
+<img class="flag_big" src="/assets/img/{{ item.image }}" alt="Flag of {{ item.title }}">
+<p>
+    <em>Flag proportions</em>: {{ item.proportions }}
+</p>
+<p>{{ item.description }}</p>
+{% if item.children != "n/a" %}
+<h2 class="section-title" id="children">Children</h2>
+<ul id="post-list">
+    {% assign subnationals = item.children | sort: 'name' %}
+    {% for subnational in subnationals %}
+    {% if subnational.parent == item.title %}
+    <li>
+        <h2><a href="{{ subnational.stub }}.html">{{ subnational.name }}<br><span class="home-image"><img src="/assets/img/{{ subnational.stub }}.png"></span></a></h2>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+{% endif %}
+{% endif %}
+{% endfor %}

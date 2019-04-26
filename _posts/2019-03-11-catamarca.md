@@ -5,6 +5,7 @@ title: Catamarca
 type: Province
 parent: Argentina
 image: catamarca.png
+permalink: catamarca
 ---
 {: .caption }
 {{ page.type }} ([Argentina](/2019/03/11/argentina.html))

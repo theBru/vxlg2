@@ -5,6 +5,7 @@ title: Buenos Aires (province)
 type: Province
 parent: Argentina
 image: buenos-aires.png
+permalink: buenos-aires
 ---
 {: .caption }
 {{ page.type }} ([Argentina](/2019/03/11/argentina.html))

@@ -5,6 +5,7 @@ title: Corrientes
 type: Province
 parent: Argentina
 image: corrientes.png
+permalink: corrientes
 ---
 {: .caption }
 {{ page.type }} ([Argentina](/2019/03/11/argentina.html))

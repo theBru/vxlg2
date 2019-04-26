@@ -4,6 +4,7 @@ author: Gurur
 title: Antigua and Barbuda
 type: Sovereign state
 image: antigua-and-barbuda.png
+permalink: antigua-and-barbuda
 ---
 {: .caption }
 {{ page.type }}

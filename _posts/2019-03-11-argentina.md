@@ -4,6 +4,7 @@ author: Gurur
 title: Argentina
 type: Sovereign state
 image: argentina.png
+permalink: argentina
 ---
 {: .caption }
 {{ page.type }}

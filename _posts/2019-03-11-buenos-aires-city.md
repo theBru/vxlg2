@@ -5,6 +5,7 @@ title: Buenos Aires (city)
 type: Autonomous city
 parent: Argentina
 image: buenos-aires-city.png
+permalink: buenos-aires-city
 ---
 {: .caption }
 {{ page.type }} ([{{ page.parent }}](/2019/03/11/argentina.html))
