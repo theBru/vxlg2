@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="857px" height="622px" viewBox="0 0 857 622" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M287.5,10.487055 L287.5,611.512945" id="Line" stroke="#000000" stroke-width="20" stroke-linecap="square"></path>
+        <path d="M557.5,10.487055 L557.5,611.512945" id="Line-Copy" stroke="#000000" stroke-width="20" stroke-linecap="square"></path>
+        <path d="M847,307 L10,307" id="Line-Copy-2" stroke="#000000" stroke-width="20" stroke-linecap="square"></path>
+        <circle id="civil" fill="#000000" cx="138" cy="162" r="70"></circle>
+        <circle id="civilEnsign" fill="#000000" cx="138" cy="462" r="70"></circle>
+        <circle id="state" fill="#000000" cx="423" cy="162" r="70"></circle>
+        <circle id="stateEnsign" fill="#000000" cx="423" cy="462" r="70"></circle>
+        <circle id="war" fill="#000000" cx="703" cy="162" r="70"></circle>
+        <circle id="navalEnsign" fill="#000000" cx="703" cy="462" r="70"></circle>
+    </g>
+</svg>

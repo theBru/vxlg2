@@ -1,50 +1,154 @@
-- name: Bolivia
-  stub: bolivia
+- name: Afghanistan
   parent: n/a
-  children:
-    - name: Beni
-      stub: beni
-    - name: Chuquisaca
-      stub: chuquisaca
-    - name: Cochabamba
-      stub: cochabamba
-    - name: La Paz
-      stub: la-paz
-    - name: Oruro
-      stub: oruro
-    - name: Pando
-      stub: pando
-    - name: Potosí
-      stub: potosi
-    - name: Santa Cruz
-      stub: santa-cruz
-    - name: Tarija
-      stub: tarija
-  type: Sovereign state
+  stub: afghanistan
+  type: Sovereign nation
+  image: afghanistan.png
+  proportions: "2:3"
+  adopted: 2013
+  colours:
+    - rgb: (0-0-0)
+      hex: "#000000"
+    - rgb: (190-0-0)
+      hex: "#BE0000"
+    - rgb: (0-153-0)
+      hex: "#009900"
+  use:
+    - civil: "no"
+      state: "yes"
+      war: "yes"
+      civilEnsign: "no"
+      stateEnsign: "yes"
+      navalEnsign: "yes"
+  variant: n/a
+- name: Albania
+  parent: n/a
+  stub: albania
+  type: Sovereign nation
+  image: albania.png
+  proportions: "5:7"
+  adopted: 1912
+  colours:
+    - rgb: (255-0-0)
+      hex: "#FF0000"
+    - rgb: (0-0-0)
+      hex: "#000000"
+  use:
+    - civil: "yes"
+      state: "yes"
+      war: "yes"
+      civilEnsign: "no"
+      stateEnsign: "yes"
+      navalEnsign: "no"
+  variant: n/a
+- name: Algeria
+  parent: n/a
+  stub: algeria
+  type: Sovereign nation
+  image: algeria.png
+  proportions: "2:3"
+  adopted: 1962
+  colours:
+    - rgb: (210-16-52)
+      hex: "#D21034"
+    - rgb: (0-114-41)
+      hex: "#007229"
+    - rgb: (255,255,255)
+      hex: "#FFFFFF"
+  use:
+    - civil: "yes"
+      state: "yes"
+      war: "yes"
+      civilEnsign: "yes"
+      stateEnsign: "yes"
+      navalEnsign: "no"
+  variant:
+    - image: algeria-alt_1.png
+      use: 
+        - civil: "no"
+          state: "no"
+          war: "no"
+          civilEnsign: "no"
+          stateEnsign: "no"
+          navalEnsign: "yes"
+- name: Andorra
+  parent: n/a
+  stub: andorra
+  type: Sovereign nation
+  image: andorra.png
+  proportions: "7:10"
+  adopted: 1971
+  colours:
+    - rgb: (0-29-242)
+      hex: "#001DF2"
+    - rgb: (255-252-0)
+      hex: "#FFFC00"
+    - rgb: (255,0,97)
+      hex: "#ff0061"
+  use:
+    - civil: "yes"
+      state: "yes"
+      war: "no"
+      civilEnsign: "no"
+      stateEnsign: "no"
+      navalEnsign: "no"
+  variant:
+    - image: andorra-alt_1.png
+      use: 
+        - civil: "yes"
+          state: "no"
+          war: "no"
+          civilEnsign: "no"
+          stateEnsign: "no"
+          navalEnsign: "no"
+- name: Angola
+  parent: n/a
+  stub: angola
+  type: Sovereign nation
+  image: angola.png
+  proportions: "2:3"
+  adopted: 1975
+  colours:
+    - rgb: (204-9-47)
+      hex: "#C8102E"
+    - rgb: (255-203-0)
+      hex: "#FFCD00"
+    - rgb: (0-0-0)
+      hex: "#000000"
+  use:
+    - civil: "yes"
+      state: "yes"
+      war: "yes"
+      civilEnsign: "no"
+      stateEnsign: "no"
+      navalEnsign: "no"
+  variant: n/a
+- name: Bolivia
+  parent: n/a
+  stub: bolivia
+  type: Sovereign nation
   image: bolivia.png
-  permalink: bolivia
+  proportions: "15:22"
+  adopted: 1851
   colours:
-    - red
-    - yellow
-    - green
-  coatOfArms: no
-  proportions: "2:3"
-  design:
-    - triband
-    - tricolour
-    - horizontal bands
-  description: Tricolour with horizontal bands of red, yellow, and green.
-- name: Beni
-  stub: beni
-  parent: Bolivia
-  children: n/a
-  type: State
-  image: beni.png
-  permalink: beni
-  colours:
-    - green
-  coatOfArms: no
-  proportions: "2:3"
-  design:
-    - unicolour
-  description: Green field
+    - rgb: (213-43-30)
+      hex: "#D52B1E"
+    - rgb: (250-209-22)
+      hex: "#FCD116"
+    - rgb: (0-121-52)
+      hex: "#007934"
+  use:
+    - civil: "yes"
+      state: "no"
+      war: "no"
+      civilEnsign: "no"
+      stateEnsign: "no"
+      navalEnsign: "no"
+  variant:
+    - image: bolivia-alt_1.png
+      use:
+        - civil: "no"
+          state: "yes"
+          war: "yes"
+          civilEnsign: "no"
+          stateEnsign: "no"
+          navalEnsign: "yes"

@@ -13,7 +13,7 @@ body {
     margin: 2vh auto;
     display: block;
     width: 90%;
-    max-width: 840px;
+    max-width: 1200px;
     line-height: 1.3;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.1rem;
@@ -26,6 +26,7 @@ a {
 header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2em;
 }
 
 #site-title a {
@@ -39,91 +40,85 @@ nav ul {
     }
 }
 
+.flag-content {
+    margin-top: 1em;
+}
+
 h1 {
     font-size: 1.8rem;
     font-weight: bold;
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0 0 0;
 }
 
-.section-title {
-    font-weight: bold;
-    font-size: 1.5rem;
-    line-height: 1.2;
-    margin: 2em 0 1em 0;
-}
-
-#flag-components {
-    margin-top: 0;
-}
-
-p {
-    margin-bottom: 1em;
-    font-weight: 400;
-    &.facts {
-        margin-bottom: 0.5em;
-    }
-}
-
-#post-list {
+.grid-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 3em;
+    grid-template-columns: repeat(12, 1fr);
+}
 
-    & li {
-        margin-bottom: 2em;
-    }
+.flag-image {
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.flag-desc {
+    grid-column-start: 8;
+    grid-column-end: 13;
 }
 
 img {
-    width: auto;
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    margin-bottom: 1em;
-    border: 1px solid rgba(222,222,222,1);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
 
-#post-list img {
-    max-height: 350px;
-    width: auto;
-    margin-bottom: 0 !important;
-    border: 1px solid rgba(222,222,222,0.6);
-}
-
-#post-list h2 {
-    line-height: 3;
-}
-
-.caption {
-    text-transform: uppercase;
-    font-size: 0.9rem;
-}
-
-em {
+em,
+th {
     font-style: italic;
 }
 
-strong {
-    font-weight: 700;
+p,
+.flag-colours li {
+    font-size: 1.325rem;
+    margin-bottom: 1em;
 }
 
-sup,
-sub {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
+.flag-meta {
+    margin-top: 1em;
 }
 
-sup {
-    top: -0.5em;
+.text-small {
+    font-size: 1.1rem;
 }
 
-sub {
-    bottom: -0.25em;
+.flag-colours {
+    margin-top: 2rem;
 }
 
-.source-link {
-    font-size: 85%;
-    color: #3c8fdd;
-    font-weight: 700;
+.color-square {
+    display: inline-block;
+    content: "";
+    height: 1em;
+    width: 1em;
+    margin-right: 0.5em;
+    vertical-align: -0.2em;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+.variant-section {
+    margin-top: 4em;
+}
+
+.section-header {
+    font-weight: bold;
+    font-size: 1.325rem;
+    margin-bottom: 1rem;
+}
+
+.variant-section img {
+    width: 40%;
+    margin-right: 1em;
+}
+
+.variant-section svg {
+    vertical-align: top;
 }

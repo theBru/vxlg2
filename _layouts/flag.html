@@ -4,24 +4,95 @@ layout: default
 {% for item in site.data.flags %}
 {% if page.title == item.name %}
 <h1>{{ item.name }}</h1>
-<p class="caption">{{ item.type }}</p>
-<img class="flag_big" src="/assets/img/{{ item.image }}" alt="Flag of {{ item.title }}">
-<p>
-    <em>Flag proportions</em>: {{ item.proportions }}
-</p>
-<p>{{ item.description }}</p>
-{% if item.children != "n/a" %}
-<h2 class="section-title" id="children">Children</h2>
-<ul id="post-list">
-    {% assign subnationals = item.children | sort: 'name' %}
-    {% for subnational in subnationals %}
-    {% if subnational.parent == item.title %}
-    <li>
-        <h2><a href="{{ subnational.stub }}.html">{{ subnational.name }}<br><span class="home-image"><img src="/assets/img/{{ subnational.stub }}.png"></span></a></h2>
-    </li>
-    {% endif %}
-    {% endfor %}
-</ul>
+<span class="text-small">{{ item.type }}</span>
+<div class="grid-layout flag-content">
+    <div class="grid-left-column flag-image">
+        <img src="/assets/img/{{ item.image }}" class="Flag of {{ item.name }}">
+        <div class="flag-colours">
+            <ul>
+                {% for colour in item.colours %}
+                <li class="color"><span class="color-square" data-color="{{ colour.hex }}"></span>rgb{{ colour.rgb }} | {{ colour.hex }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="grid-right-column flag-desc">
+        {% for use in item.use %}
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg width="50px" height="50px" viewBox="0 0 857 622" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+            <title></title>
+            <desc>Flag use</desc>
+            <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <path d="M287.5,10.487055 L287.5,611.512945" id="Line" stroke="#000000" stroke-width="20" stroke-linecap="square"></path>
+                <path d="M557.5,10.487055 L557.5,611.512945" id="Line-Copy" stroke="#000000" stroke-width="20" stroke-linecap="square"></path>
+                <path d="M847,307 L10,307" id="Line-Copy-2" stroke="#000000" stroke-width="20" stroke-linecap="square"></path>
+                {% if use.civil == "yes" %}
+                <circle id="civil" fill="#000000" cx="138" cy="162" r="70"></circle>
+                {% endif %}
+                {% if use.civilEnsign == "yes" %}
+                <circle id="civilEnsign" fill="#000000" cx="138" cy="462" r="70"></circle>
+                {% endif %}
+                {% if use.state == "yes" %}
+                <circle id="state" fill="#000000" cx="423" cy="162" r="70"></circle>
+                {% endif %}
+                {% if use.stateEnsign == "yes" %}
+                <circle id="stateEnsign" fill="#000000" cx="423" cy="462" r="70"></circle>
+                {% endif %}
+                {% if use.war == "yes" %}
+                <circle id="war" fill="#000000" cx="703" cy="162" r="70"></circle>
+                {% endif %}
+                {% if use.navalEnsign == "yes" %}
+                <circle id="navalEnsign" fill="#000000" cx="703" cy="462" r="70"></circle>
+                {% endif %}
+            </g>
+        </svg>
+        {% endfor %}
+        {{ content }}
+        <p>Adopted in {{ item.adopted }}.</p>
+        <p><em>Proportions:</em> {{ item.proportions }}</p>
+        {% if item.variant != 'n/a' %}
+        <div class="variant-section">
+            <h2 class="section-header">Variants</h2>
+            <div class="variant-layout">
+                {% for variant in item.variant %}
+                <img class="variant-image" src="/assets/img/{{ variant.image }}">
+                {% for use in variant.use %}
+                <?xml version="1.0" encoding="UTF-8"?>
+                <svg width="50px" height="50px" viewBox="0 0 857 622" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+                    <title></title>
+                    <desc>Flag use</desc>
+                    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <path d="M287.5,10.487055 L287.5,611.512945" id="Line" stroke="#000000" stroke-width="20" stroke-linecap="square"></path>
+                        <path d="M557.5,10.487055 L557.5,611.512945" id="Line-Copy" stroke="#000000" stroke-width="20" stroke-linecap="square"></path>
+                        <path d="M847,307 L10,307" id="Line-Copy-2" stroke="#000000" stroke-width="20" stroke-linecap="square"></path>
+                        {% if use.civil == "yes" %}
+                        <circle id="civil" fill="#000000" cx="138" cy="162" r="70"></circle>
+                        {% endif %}
+                        {% if use.civilEnsign == "yes" %}
+                        <circle id="civilEnsign" fill="#000000" cx="138" cy="462" r="70"></circle>
+                        {% endif %}
+                        {% if use.state == "yes" %}
+                        <circle id="state" fill="#000000" cx="423" cy="162" r="70"></circle>
+                        {% endif %}
+                        {% if use.stateEnsign == "yes" %}
+                        <circle id="stateEnsign" fill="#000000" cx="423" cy="462" r="70"></circle>
+                        {% endif %}
+                        {% if use.war == "yes" %}
+                        <circle id="war" fill="#000000" cx="703" cy="162" r="70"></circle>
+                        {% endif %}
+                        {% if use.navalEnsign == "yes" %}
+                        <circle id="navalEnsign" fill="#000000" cx="703" cy="462" r="70"></circle>
+                        {% endif %}
+                    </g>
+                </svg>
+                {% endfor %}
+                {% endfor %}
+            </div>
+        </div>
 {% endif %}
+    </div>
+</div>
 {% endif %}
 {% endfor %}
