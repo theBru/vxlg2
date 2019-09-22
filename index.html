@@ -4,11 +4,11 @@ title: Home
 ---
 <h1 style="margin-bottom: 0.5em">welcome to {{ site.title }}</h1>
 <ul id="post-list">
-    {% assign posts = site.posts | sort: 'title' %}
-    {% for post in posts %}
-    {% if post.parent == "n/a" %}
+    {% assign flags = site.data.flags | sort: 'name' %}
+    {% for flag in flags %}
+    {% if flag.parent == "n/a" %}
     <li>
-        <h2><a href="{{ post.url }}">{{ post.title }}<br><span class="home-image"><img src="/assets/img/{{ post.image }}"></span></a></h2>
+        <h2><a href="{{ flag.stub }}">{{ flag.name }}<br><span class="home-image"><img src="/assets/img/{{ flag.image }}"></span></a></h2>
     </li>
     {% endif %}
     {% endfor %}
