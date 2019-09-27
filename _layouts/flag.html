@@ -8,13 +8,10 @@ layout: default
 <div class="grid-layout flag-content">
     <div class="grid-left-column flag-image">
         <img src="/assets/img/{{ item.image }}" class="Flag of {{ item.name }}">
-        <div class="flag-colours">
-            <ul>
-                {% for colour in item.colours %}
-                <li class="color"><span class="color-square" data-color="{{ colour.hex }}"></span>rgb{{ colour.rgb }} | {{ colour.hex }}</li>
-                {% endfor %}
-            </ul>
-        </div>
+        <h2 class="section-header">Factoids</h2>
+        <p class="meta"><b>Capital: </b>{{ page.capital }}</p>
+        <p class="meta"><b>Region: </b>{{ page.region }}</p>
+        <p class="meta"><b>Population: </b>{{ page.population }}</p>
     </div>
     <div class="grid-right-column flag-desc">
         {% for use in item.use %}
@@ -48,9 +45,16 @@ layout: default
             </g>
         </svg>
         {% endfor %}
+        <p>{{ item.proportions }}</p>
         {{ content }}
         <p>Adopted in {{ item.adopted }}.</p>
-        <p><em>Proportions:</em> {{ item.proportions }}</p>
+        <div class="flag-colours font-small">
+            <ul>
+                {% for colour in item.colours %}
+                <li class="color"><span class="color-square" data-color="{{ colour.hex }}"></span>rgb{{ colour.rgb }} | {{ colour.hex }}</li>
+                {% endfor %}
+            </ul>
+        </div>
         {% if item.variant != 'n/a' %}
         <div class="variant-section">
             <h2 class="section-header">Variants</h2>

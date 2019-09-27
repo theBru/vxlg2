@@ -122,6 +122,92 @@
       stateEnsign: "no"
       navalEnsign: "no"
   variant: n/a
+- name: Antigua and Barbuda
+  parent: n/a
+  stub: antigua-and-barbuda
+  type: Sovereign nation
+  image: antigua-and-barbuda.png
+  proportions: "2:3"
+  adopted: 1967
+  colours:
+    - rgb: (250-202-19)
+      hex: "#FFCA13"
+    - rgb: (11-92-187)
+      hex: "#0B5CBB"
+    - rgb: (194-0-25)
+      hex: "#C20019"
+    - rgb: (255-255-255)
+      hex: "#FFFFFF"
+  use:
+    - civil: "yes"
+      state: "yes"
+      war: "yes"
+      civilEnsign: "yes"
+      stateEnsign: "no"
+      navalEnsign: "no"
+  variant:
+    - image: antigua-and-barbuda-alt_1.png
+      use:
+        - civil: "no"
+          state: "no"
+          war: "no"
+          civilEnsign: "no"
+          stateEnsign: "no"
+          navalEnsign: "yes"
+- name: Argentina
+  parent: n/a
+  stub: argentina
+  type: Sovereign nation
+  image: argentina.png
+  proportions: "5:8"
+  adopted: 1861
+  colours:
+    - rgb: (116-172-223)
+      hex: "#74ACDF"
+    - rgb: (246-180-14)
+      hex: "#F6B40E"
+    - rgb: (255-255-255)
+      hex: "#FFFFFF"
+    - rgb: (133-52-10)
+      hex: "#85340A"
+  use:
+    - civil: "yes"
+      state: "yes"
+      war: "yes"
+      civilEnsign: "yes"
+      stateEnsign: "yes"
+      navalEnsign: "yes"
+  variant:
+    - image: argentina-alt_1.gif
+      use:
+        - civil: "no"
+          state: "no"
+          war: "no"
+          civilEnsign: "yes"
+          stateEnsign: "no"
+          navalEnsign: "no"
+- name: Armenia
+  parent: n/a
+  stub: armenia
+  type: Sovereign nation
+  image: armenia.png
+  proportions: "1:2"
+  adopted: 1990
+  colours:
+    - rgb: (217-0-18)
+      hex: "#D90012"
+    - rgb: (0-51-160)
+      hex: "#0033A0"
+    - rgb: (242-168-0)
+      hex: "#F2A800"
+  use:
+    - civil: "yes"
+      state: "yes"
+      war: "yes"
+      civilEnsign: "no"
+      stateEnsign: "no"
+      navalEnsign: "no"
+  variant: n/a
 - name: Bolivia
   parent: n/a
   stub: bolivia
